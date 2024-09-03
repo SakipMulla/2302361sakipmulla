@@ -1,0 +1,13 @@
+//display size in bytes of basic data types using size of operator
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout<<"size of int :"<<sizeof(int)<<"bytes"<<endl;
+    cout<<"size of char :"<<sizeof(char)<<"bytes"<<endl;
+    cout<<"size of float :"<<sizeof(float)<<"bytes"<<endl;
+    cout<<"size of double :"<<sizeof(double)<<"bytes"<<endl;
+    cout<<"size of bool :"<<sizeof(bool)<<"bytes"<<endl;
+    return 0;
+}
